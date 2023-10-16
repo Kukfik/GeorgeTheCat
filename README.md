@@ -1,13 +1,21 @@
 # GeorgeTheCat
 
-## 알리나
+## IDEA
+    Make Bot that auto-corrects your text and/or modify it someway
 
-| 정보 검색
+## Imports
+    pip install flask
+    pip install torch
+
+## 알리나
+    16.10
+    | 정보 검색
+    | Front-end / First page
 
 ## 웅호
-
-| ppt template
+    16.10
+    | ppt template
 
 ## 막심
-
-| 정보 검색
+    16.10
+    | 정보 검색
