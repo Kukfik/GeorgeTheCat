@@ -2,6 +2,7 @@
 
 ## IDEA
     Forest with catalog of animals
+    숲의 동물, 식물 등등 정보 찾기
 
 ## Imports
     pip install python-dotenv
@@ -15,7 +16,7 @@
     | 아이디어 개발
     17.10
     | 정보 검색
-    | HTML/CSS 메인 페이지 만들기 - 
+    | 계획: HTML/CSS 메인 페이지 만들기 - 그리고 스크롤 할떄 숲으로 들어오기
     https://www.youtube.com/watch?v=_sxoqRIbW0c&t=17s
     https://www.freecodecamp.org/learn/2022/responsive-web-design/
 
@@ -25,6 +26,7 @@
     | 아이디어 개발
     17.10
     | PPT/Documentation
+    
 
 ## 막심
     16.10
