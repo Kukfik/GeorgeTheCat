@@ -1,7 +1,7 @@
 # GeorgeTheCat
 
 ## IDEA
-
+    Forest with catalog of animals
 
 ## Imports
     pip install python-dotenv
