@@ -19,12 +19,16 @@
     | 계획: HTML/CSS 메인 페이지 만들기 - 그리고 스크롤 할떄 숲으로 들어오기
     https://www.youtube.com/watch?v=_sxoqRIbW0c&t=17s
     https://www.freecodecamp.org/learn/2022/responsive-web-design/
+    18.10
+    | HTML/CSS 챗 페이지 만들기
 
 ## 웅호
     16.10
     | ppt template
     | 아이디어 개발
     17.10
+    | PPT/Documentation
+    18.10
     | PPT/Documentation
 
 ## 막심
@@ -35,3 +39,9 @@
     | 정보 검색
     | 챗봇 백엔드 생성해보기 
     https://www.youtube.com/watch?v=EWKbZFqiCsE
+    18.10
+    | 챗봇 모델 만들기
+
+## 지민
+    18.10
+    | 발표 준비
