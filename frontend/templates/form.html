@@ -11,19 +11,21 @@
 	<div class="chat-container">
 		<h2 class="chat-header">Chatbot making answer...</h2>
 		<div class="chat-messages">
-			<div class="message blue-bg">
+			<div class="message blue-bg" id="chatbox">
+				<!-- <h5 id="chat-timestamp"></h5>
+				<p id="botStarterMessage" class="botText"><span>Loading...</span></p> -->
 				<div class="message-sender">Chatbot</div>
-				<div class="message-text">hello</div>
-				<div class="message-timestamp">10:30am</div>
+				<div class="message-text botText" id="botStarterMessage">hello</div>
+				<div class="message-timestamp" id="chat-timestamp"></div> 
 			</div>
 			<div class="message gray-bg">
 				<div class="message-sender">You</div>
-				<div class="message-text">hello</div>
-				<div class="message-timestamp">10:30am</div>
+				<div class="message-text" id="chat-bar-bottom"></div>
+				<div class="message-timestamp" id="chat-timestamp"></div>
 			</div>
 		</div>
-		<form class="chat-input-form">
-			<input type="text" class="chat-inputs" required placeholder="Please, type here"/>
+		<form class="chat-input-form" id="userInput">
+			<input type="text" class="chat-inputs input-box" id="textInput" name="msg"required placeholder="Please, type here"/>
 			<button type="submit" class="button send-button">Send</button>
 		</form>
 		<button class="button clear-chat-button">Clear Chat</button>
