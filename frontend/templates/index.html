@@ -10,7 +10,8 @@
 	</head>
 	<body>
 		<section class="logo1">
-			<div class="logo" style="background-image: url(../static/img/logo.svg);"></div>
+			<!-- <div class="logo" style="background-image: url(../static/img/logo.svg);"></div> -->
+			<div class="logo">Made by: <span class="logo_span">Maksimka, Ainka, 웅호, 정지민</span></div>
 		</section>
 		
 		<section class="layers">
@@ -21,7 +22,7 @@
 					<div class="hero-content">
 						<h1>Natural forest</h1>
 						<div class="hero-content__p">Here you can find everything about forest</div>
-						<button class="button-start">Start searching</button>
+						<a class="button-start" href="{{ url_for('forms_page') }}">Start searching</a>
 					</div>
 				</div>
 				<div class="layers__item layer-4">
@@ -32,7 +33,7 @@
 				</div>
 		</section>
 
-		<div style="height:100vh"></div>
+		<!-- <div style="height:100vh"></div> -->
 
 
 	</body>
