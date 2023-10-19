@@ -5,6 +5,17 @@ def get_response():
 # Create a Flask application
 app = Flask(__name__, static_folder="static", template_folder="templates")
 
+# Define a route and a view function
+@app.get('/')
+def index_get():
+    return render_template("index.html")
+
+# Define a route and a view function
+@app.route('/forms', methods=['GET','POST'])
+def forms_page():
+    if request.method == "POST":
+        message = request.form["description"]
+
 # @app.post("/predict")
 # def predict():
 #     text = request.get_json().get("message")
