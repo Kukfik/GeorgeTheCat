@@ -12,9 +12,8 @@ def index_get():
 
 # Define a route and a view function
 @app.route('/forms', methods=['GET','POST'])
-def forms_page():
-    if request.method == "POST":
-        message = request.form["description"]
+def form_page():
+    return render_template('form.html')
 
 # @app.post("/predict")
 # def predict():
